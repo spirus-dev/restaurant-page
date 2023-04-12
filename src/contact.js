@@ -13,19 +13,19 @@ export default function RenderContact(e){
 
     const contactData=[
         {
-            asset:'../assets/map-marker.svg',
+            asset:'./assets/map-marker.svg',
             content:'Near Takhatmal English High School, In front of Srijan Hospital, Sai Nagar, Amravati, 444607'
         },
         {
-            asset:'../assets/phone.svg',
+            asset:'./assets/phone.svg',
             content:'+91 1234567890'
         },
         {
-            asset:'../assets/email.svg',
+            asset:'./assets/email.svg',
             content:'momoshouse@gmail.com'
         },
         {
-            asset:'../assets/web.svg',
+            asset:'./assets/web.svg',
             content:'www.momoshouse.com'
         }
     ]
