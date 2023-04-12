@@ -1,25 +1,6 @@
-export default function initialPageLoad(){
+export default function InitialPageLoad(){
     const content=document.querySelector('#content');
     
-    const nav=document.createElement('div');
-    nav.classList.add('nav');
-    
-    const logo=document.createElement('div');
-    logo.classList.add('logo');
-    logo.innerHTML='Momos House';
-    nav.appendChild(logo);
-    
-    const navItems=document.createElement('ul');
-    navItems.classList.add('navItems');
-    const listItems=['About','Menu','Contact'];
-    for(let i=0;i<3;i++){
-        const navItem=document.createElement('li');
-        navItem.innerHTML=listItems[i];
-        navItems.appendChild(navItem);
-    }
-    nav.appendChild(navItems);
-    content.appendChild(nav);
-
     const main=document.createElement('div');
     main.classList.add('main');
 
