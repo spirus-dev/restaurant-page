@@ -1,3 +1,4 @@
+import "./style.css";
 import InitialPageLoad from "./about";
 import RenderContact from "./contact";
 import RenderMenu from "./menu";

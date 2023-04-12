@@ -24,7 +24,7 @@ export default function RenderMenu(e){
         menuCardImage.classList.add('menuCardImage');
         
         const img=document.createElement('img');
-        img.src='../assets/momos.png';
+        img.src='./assets/momos.png';
 
         menuCardImage.appendChild(img);
         menuCard.appendChild(menuCardImage);

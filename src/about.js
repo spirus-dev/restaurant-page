@@ -13,7 +13,7 @@ export default function InitialPageLoad(){
     photo.classList.add('photo');
 
     const img=document.createElement('img');
-    img.src='../assets/momos.png';
+    img.src='./assets/momos.png';
     photo.appendChild(img);
     main.appendChild(photo);
 
